@@ -18,7 +18,7 @@ class MyDate03{
 		System.out.println(year + "년" + month + "월" + date + "일");
 	}
 }
-public class ObjectTest03 {
+public class ObjTest03 {
 	public static void main(String[] args) {
 		new MyDate03(); // 기본생성자 호출
 		new MyDate03().print(); //기본생성자 호출하면서 매서드도 호출
