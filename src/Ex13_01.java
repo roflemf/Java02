@@ -5,17 +5,26 @@
 class Animal{
 	String name;
 	int age; // 멤버변수 2개 선언 -> 인스턴스 변수
-
+	String phone;
 
 	public Animal(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}// 생성자 오버로딩
 
-
+    public Animal(String name, int age, String phone) {
+    	this.name = name;
+    	this.age = age;
+    	this.phone = phone;
+    }
 	public void show() {
 		System.out.println(name + "은(는)" + age + "살 입니다");
 	}// 사용자 정의 메서드
+
+	public void show1() {
+		System.out.println(name + "은 " + age + "살 이며 " + phone +"번호");
+	}
+	
 }
 
 public class Ex13_01 {
